@@ -1,0 +1,228 @@
+:root {
+  --ink: #1B2430;
+  --ink-soft: #4A5568;
+  --paper: #F5F3EC;
+  --paper-raised: #FFFFFF;
+  --rule: #D9D4C4;
+  --moss: #55684C;
+  --amber: #B0812F;
+  --clay: #8C5A44;
+  --focus: #2B6CB0;
+
+  --serif: 'Lora', Georgia, serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead {
+  border-bottom: 1px solid var(--rule);
+  padding: 2.5rem 1.5rem 1.75rem;
+}
+
+.masthead-inner {
+  max-width: 740px;
+  margin: 0 auto;
+}
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 2.1rem;
+  margin: 0 0 0.35rem;
+  letter-spacing: 0.01em;
+}
+
+.subtitle {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: var(--ink-soft);
+  max-width: 46ch;
+}
+
+.meta {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--moss);
+}
+
+/* ---------- Controls ---------- */
+
+main {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem 4rem;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 0.25rem;
+}
+
+.search-label {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+#search {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--paper-raised);
+  color: var(--ink);
+}
+
+.source-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: var(--paper-raised);
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease, border-color 0.12s ease;
+}
+
+.chip[aria-pressed="true"] {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--paper);
+}
+
+.sort-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+#sort {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  padding: 0.3rem 0.5rem;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  background: var(--paper-raised);
+  color: var(--ink);
+}
+
+.result-count {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin: 1rem 0 0.5rem;
+}
+
+/* ---------- Job list ---------- */
+
+.job-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.job {
+  border-bottom: 1px solid var(--rule);
+  padding: 1.1rem 0 1.1rem 0.9rem;
+  border-left: 3px solid var(--rule);
+  margin-left: -0.9rem;
+  transition: border-left-color 0.12s ease;
+}
+
+.job[data-source="USAJOBS"]     { border-left-color: var(--amber); }
+.job[data-source="ABS"]         { border-left-color: var(--moss); }
+.job[data-source="ISAE"]        { border-left-color: var(--clay); }
+
+.job-title {
+  margin: 0 0 0.25rem;
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.08rem;
+}
+
+.job-title a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+.job-title a:hover,
+.job-title a:focus-visible {
+  border-bottom-color: currentColor;
+}
+
+.job-meta {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.6rem;
+}
+
+.job-meta .sep { color: var(--rule); }
+
+.job-date {
+  white-space: nowrap;
+}
+
+.empty-state {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 3rem;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--rule);
+}
+
+footer a { text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+
+@media (max-width: 480px) {
+  .masthead h1 { font-size: 1.75rem; }
+}

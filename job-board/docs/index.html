@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fieldnotes — Animal Behavior &amp; Welfare Jobs</title>
+<meta name="description" content="Job, postdoc, and graduate opportunities in animal behavior, cognition, comparative cognition, and animal welfare, collected in one place.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-inner">
+    <h1>Fieldnotes</h1>
+    <p class="subtitle">Job, postdoc, and graduate postings in animal behavior, cognition, and welfare</p>
+    <p class="meta" id="meta-line">Loading listings…</p>
+  </div>
+</header>
+
+<main>
+  <div class="controls">
+    <label class="search-label" for="search">Search</label>
+    <input type="text" id="search" placeholder="Search by title, org, or location…" autocomplete="off">
+
+    <div class="source-filters" id="source-filters" role="group" aria-label="Filter by source">
+      <!-- populated by app.js -->
+    </div>
+
+    <div class="sort-row">
+      <label for="sort">Sort</label>
+      <select id="sort">
+        <option value="date_desc">Newest first</option>
+        <option value="date_asc">Oldest first</option>
+        <option value="title_asc">Title A–Z</option>
+      </select>
+    </div>
+  </div>
+
+  <p class="result-count" id="result-count"></p>
+
+  <ul class="job-list" id="job-list" aria-live="polite">
+    <!-- populated by app.js -->
+  </ul>
+
+  <p class="empty-state" id="empty-state" hidden>
+    No postings match your filters right now. Try clearing the search or turning a source back on.
+  </p>
+</main>
+
+<footer>
+  <p>
+    Sources: <a href="https://www.usajobs.gov/" target="_blank" rel="noopener">USAJOBS</a>,
+    <a href="https://www.animalbehaviorsociety.org/web/news.php" target="_blank" rel="noopener">Animal Behavior Society</a>,
+    <a href="https://www.applied-ethology.org/Employment_and_Education.html" target="_blank" rel="noopener">ISAE</a>.
+    Listings refresh daily. This site links to original postings — always apply on the employer's own site.
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
