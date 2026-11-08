@@ -1,5 +1,186 @@
 {
-  "generated_at": "2026-11-07T17:55:22.150239+00:00",
-  "count": 0,
-  "jobs": []
+  "generated_at": "2026-11-08T18:11:18.852953+00:00",
+  "count": 18,
+  "jobs": [
+    {
+      "title": "PhD positions: Integrative evolutionary biology of speciation",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Grad Positions",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=918&sort=",
+      "date_posted": null,
+      "id": 0
+    },
+    {
+      "title": "Assistant Professor, Psychology",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=917&sort=",
+      "date_posted": null,
+      "id": 1
+    },
+    {
+      "title": "Postdoc in Shaw lab, Cornell University",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=916&sort=",
+      "date_posted": null,
+      "id": 2
+    },
+    {
+      "title": "MS and PhD positions in Ecology and Evolutionary Biology (EEB) at University of Tennessee, Knoxville",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Grad Positions",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=915&sort=",
+      "date_posted": null,
+      "id": 3
+    },
+    {
+      "title": "Three NSCORE Postdoc Fellows at Columbia U in NYC",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=914&sort=",
+      "date_posted": null,
+      "id": 4
+    },
+    {
+      "title": "Director, Applied Behavior Research- Full Time, Remote Position",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=913&sort=",
+      "date_posted": null,
+      "id": 5
+    },
+    {
+      "title": "Research Associate in Insect Vibrational Communication",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=912&sort=",
+      "date_posted": null,
+      "id": 6
+    },
+    {
+      "title": "Assistant Professor of Avian Biology",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=911&sort=",
+      "date_posted": null,
+      "id": 7
+    },
+    {
+      "title": "Master\u00e2\u0080\u0099s in mechanisms of behavior, transcriptomics & female birdsong",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Grad Positions",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=909&sort=",
+      "date_posted": null,
+      "id": 8
+    },
+    {
+      "title": "Assistant Professor-Behavioral Ecology",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=907&sort=",
+      "date_posted": null,
+      "id": 9
+    },
+    {
+      "title": "Graduate position in plasticity (Hellmann Lab)",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Grad Positions",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=906&sort=",
+      "date_posted": null,
+      "id": 10
+    },
+    {
+      "title": "Graduate Student (M.S. and Ph.D.) Positions in Animal Behavior and Endocrinology at the University of Alberta",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Grad Positions",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=904&sort=",
+      "date_posted": null,
+      "id": 11
+    },
+    {
+      "title": "Assistant Professor in Neural Mechanisms of Natural Behaviors",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=903&sort=",
+      "date_posted": null,
+      "id": 12
+    },
+    {
+      "title": "Asst Professor of Marine Invert Zoology",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=902&sort=",
+      "date_posted": null,
+      "id": 13
+    },
+    {
+      "title": "Two Assistant Professor Positions Univ TX Austin",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=900&sort=",
+      "date_posted": null,
+      "id": 14
+    },
+    {
+      "title": "Two Assistant Professor Positions in Evolutionary Biology and Mechanistic Processes",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=899&sort=",
+      "date_posted": null,
+      "id": 15
+    },
+    {
+      "title": "Asst Prof Biological Sciences-Neuroscience",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=897&sort=",
+      "date_posted": null,
+      "id": 16
+    },
+    {
+      "title": "Dairy Calf Abnormal Behavior PhD (Downey Lab)",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Grad Positions",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=895&sort=",
+      "date_posted": null,
+      "id": 17
+    }
+  ]
 }
