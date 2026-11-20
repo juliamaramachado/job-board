@@ -1,7 +1,17 @@
 {
-  "generated_at": "2026-11-19T21:07:35.491092+00:00",
-  "count": 15,
+  "generated_at": "2026-11-20T20:52:51.693388+00:00",
+  "count": 16,
   "jobs": [
+    {
+      "title": "Assistant Professor Biology",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Jobs & Postdocs",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=925&sort=",
+      "date_posted": null,
+      "id": 0
+    },
     {
       "title": "Lab Manager - Tanner and Hemingway Labs at U. of Tennessee",
       "org": "",
@@ -9,16 +19,6 @@
       "source": "Animal Behavior Society",
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=924&sort=",
-      "date_posted": null,
-      "id": 0
-    },
-    {
-      "title": "Grad Positions in Urban Animal Cognition & Behavior",
-      "org": "",
-      "location": "",
-      "source": "Animal Behavior Society",
-      "category": "Grad Positions",
-      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=922&sort=",
       "date_posted": null,
       "id": 1
     },
@@ -28,9 +28,19 @@
       "location": "",
       "source": "Animal Behavior Society",
       "category": "Grad Positions",
-      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=921&sort=",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=922&sort=",
       "date_posted": null,
       "id": 2
+    },
+    {
+      "title": "Grad Positions in Urban Animal Cognition & Behavior",
+      "org": "",
+      "location": "",
+      "source": "Animal Behavior Society",
+      "category": "Grad Positions",
+      "url": "https://www.animalbehaviorsociety.org/web/news.php?view=921&sort=",
+      "date_posted": null,
+      "id": 3
     },
     {
       "title": "LSU Assistant Professor in Behavioral Ecology",
@@ -40,7 +50,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=920&sort=",
       "date_posted": null,
-      "id": 3
+      "id": 4
     },
     {
       "title": "PhD positions: Integrative evolutionary biology of speciation",
@@ -50,7 +60,7 @@
       "category": "Grad Positions",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=918&sort=",
       "date_posted": null,
-      "id": 4
+      "id": 5
     },
     {
       "title": "Assistant Professor, Psychology",
@@ -60,7 +70,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=917&sort=",
       "date_posted": null,
-      "id": 5
+      "id": 6
     },
     {
       "title": "Postdoc in Shaw lab, Cornell University",
@@ -70,7 +80,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=916&sort=",
       "date_posted": null,
-      "id": 6
+      "id": 7
     },
     {
       "title": "MS and PhD positions in Ecology and Evolutionary Biology (EEB) at University of Tennessee, Knoxville",
@@ -80,7 +90,7 @@
       "category": "Grad Positions",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=915&sort=",
       "date_posted": null,
-      "id": 7
+      "id": 8
     },
     {
       "title": "Three NSCORE Postdoc Fellows at Columbia U in NYC",
@@ -90,7 +100,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=914&sort=",
       "date_posted": null,
-      "id": 8
+      "id": 9
     },
     {
       "title": "Director, Applied Behavior Research- Full Time, Remote Position",
@@ -100,7 +110,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=913&sort=",
       "date_posted": null,
-      "id": 9
+      "id": 10
     },
     {
       "title": "Research Associate in Insect Vibrational Communication",
@@ -110,7 +120,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=912&sort=",
       "date_posted": null,
-      "id": 10
+      "id": 11
     },
     {
       "title": "Assistant Professor of Avian Biology",
@@ -120,7 +130,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=911&sort=",
       "date_posted": null,
-      "id": 11
+      "id": 12
     },
     {
       "title": "Master\u00e2\u0080\u0099s in mechanisms of behavior, transcriptomics & female birdsong",
@@ -130,7 +140,7 @@
       "category": "Grad Positions",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=909&sort=",
       "date_posted": null,
-      "id": 12
+      "id": 13
     },
     {
       "title": "Assistant Professor-Behavioral Ecology",
@@ -140,7 +150,7 @@
       "category": "Jobs & Postdocs",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=907&sort=",
       "date_posted": null,
-      "id": 13
+      "id": 14
     },
     {
       "title": "Graduate position in plasticity (Hellmann Lab)",
@@ -150,7 +160,7 @@
       "category": "Grad Positions",
       "url": "https://www.animalbehaviorsociety.org/web/news.php?view=906&sort=",
       "date_posted": null,
-      "id": 14
+      "id": 15
     }
   ]
 }
